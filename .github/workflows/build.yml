@@ -40,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Artifacts (${{ matrix.mod_platform }})
-          path: build/libs/
+          path: platform-${{ matrix.mod_platform }}/build/libs/
